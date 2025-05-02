@@ -39,7 +39,7 @@ AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
 // make true if you want auto reply on status 
 AUTO_STATUS__MSG: process.env.AUTO_STATUS__MSG || "*🎉👀 Seen by NEXUS XMD 🚀🔥*",
 // set the auto reply massage on status reply    
-MODE: process.env.MODE || "public",
+MODE: process.env.MODE || "private,
 // make bot public-private-inbox-group 
 ANTI_LINK: process.env.ANTI_LINK || "false",
 // make anti link true,false for groups 
@@ -55,7 +55,7 @@ OWNER_REACT: process.env.OWNER_REACT || "false",
 // make it true or fasle for only react on owner msg only 
 ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
 // maks true for always online 
-PUBLIC_MODE: process.env.PUBLIC_MODE || "true",
+PUBLIC_MODE: process.env.PUBLIC_MODE || "false",
 // make false if want private mod
 AUTO_TYPING: process.env.AUTO_TYPING || "true",
 // true for automatic show typing   
