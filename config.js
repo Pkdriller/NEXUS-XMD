@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "",
+SESSION_ID: process.env.SESSION_ID || "nexus~c6UlVYLK#X1GC1Lx_dDsOAf5EBYj0w2hIbeHB1Yb7NWqAJgOzVmM",
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
@@ -13,39 +13,39 @@ AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
 // make true if you want auto reply on status 
 AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
 // make true if you want auto reply on status 
-AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS BY NEXUS-XMD🤍*",
+AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS BY vertiGO_ai*",
 // set the auto reply massage on status reply  
 WELCOME: process.env.WELCOME || "true",
 // true if want welcome and goodbye msg in groups    
-ADMIN_EVENTS: process.env.ADMIN_EVENTS || "false",
+ADMIN_EVENTS: process.env.ADMIN_EVENTS || "true",
 // make true to know who dismiss or promoted a member in group
 ANTI_LINK: process.env.ANTI_LINK || "true",
 // make anti link true,false for groups 
-MENTION_REPLY: process.env.MENTION_REPLY || "false",
+MENTION_REPLY: process.env.MENTION_REPLY || "true",
 // make true if want auto voice reply if someone menetion you 
 MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://files.catbox.moe/z62ts0.jpg",
 // add custom menu and mention reply image url
-PREFIX: process.env.PREFIX || ".",
+PREFIX: process.env.PREFIX || ",",
 // add your prifix for bot   
-BOT_NAME: process.env.BOT_NAME || "NEXUS-XMD",
-// add bot namw here for menu
-STICKER_NAME: process.env.STICKER_NAME || "NEXUS-XMD",
+BOT_NAME: process.env.BOT_NAME || "vertiGO-ai",
+// "VertiGO-cyber", 
+STICKER_NAME: process.env.STICKER_NAME || "vertiGO-ai",
 // type sticker pack name 
-CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
+CUSTOM_REACT: process.env.CUSTOM_REACT || "true",
 // make this true for custum emoji react    
 CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍",
 // chose custom react emojis by yourself 
 DELETE_LINKS: process.env.DELETE_LINKS || "true",
-// automatic delete links witho remove member 
-OWNER_NUMBER: process.env.OWNER_NUMBER || "254794146821",
+// automatic delete links without remove member 
+OWNER_NUMBER: process.env.OWNER_NUMBER || "254756585192",
 // add your bot owner number
-OWNER_NAME: process.env.OWNER_NAME || "Pkdriller",
+OWNER_NAME: process.env.OWNER_NAME || "lewis stlilz",
 // add bot owner name
-DESCRIPTION: process.env.DESCRIPTION || "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ Pkdriller*",
+DESCRIPTION: process.env.DESCRIPTION || "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ 0628 authorized*",
 // add bot owner name    
 ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/z62ts0.jpg",
 // add img for alive msg
-LIVE_MSG: process.env.LIVE_MSG || "> Zinda Hun Yar *NEXUS-XMD*⚡",
+LIVE_MSG: process.env.LIVE_MSG || "> Zinda Hun Yar *vertigo_0628*⚡",
 // add alive msg here 
 READ_MESSAGE: process.env.READ_MESSAGE || "false",
 // Turn true or false for automatic read msgs
